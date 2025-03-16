@@ -85,15 +85,20 @@ body {
 }
  
 /* CSS NUESTROS PRODUCTOS */
-.card-product{
+.card-product {
   border-radius: 15px;
   box-shadow: 3px 3px 3px 3px #878787;
 }
 
-.card-product:hover{
+.card-product:hover {
   transform: scale(1.03);
 }
 
 .card-img-top {
-  object-fit: cover;
+  width: 100%; /* Hace que la imagen ocupe todo el ancho disponible */
+  height: 260px; /* Ajusta la altura de todas las imágenes */
+  object-fit: cover; /* Hace que la imagen cubra el espacio sin deformarse */
+  transform: scale(0.9);
+  
 }
+
