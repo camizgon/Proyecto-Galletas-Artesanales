@@ -214,53 +214,118 @@
     </div>
     <br />
     <br />
-    <!--  NUESTROS PRODUCTOS -->
-    <h1 id="Seccion2" class="d-none d-md-block fs-1 text-center">
-      Nuestros Productos
-    </h1>
-    <hr class="w-75 mx-auto" />
-    <br />
+   <!-- NUESTROS PRODUCTOS -->
+<h1 id="Seccion2" class="d-none d-md-block fs-1 text-center">
+  Nuestros Productos
+</h1>
+<hr class="w-75 mx-auto" />
+<br />  
+<div class="container">
+  <div class="row d-flex justify-content-evenly gap-4"> <!-- Añadido gap-4 -->
+    <!-- Card bolsa de galleta 3 unidades 6cm -->
+    <div class="card-product" style="width: 18rem">
+      <img src="./assets/image/Card caja.png" 
+      class="card-img-top"
+       alt="Bolsa con 3 galletas" />
+      <div class="card-body">
+        <h5 class="card-title">Bolsa 3 Unidades</h5>
+        <p class="card-text">
+          Bolsa con 3 unidades de galletas de 6 cm c/u.
+        </p>
+        <p class="fs-3 fw-semibold"> $1.000</p>
+      </div>
+    </div>
+    <!-- Card caja 4 galletas 6 cm -->
+    <div class="card-product" style="width: 18rem">
+      <img src="./assets/image/Card caja.png" 
+      class="card-img-top" 
+      alt="Caja con 4 galletas" />
+      <div class="card-body">
+        <h5 class="card-title">Caja 4 Unidades</h5>
+        <p class="card-text">
+          Caja con 4 unidades de galletas de 6 cm c/u..
+        </p>
+        <p class="fs-3 fw-semibold"> $2.000</p>
+      </div>
+    </div>
+    <!-- Card frasco de galletas 8 unidades 6cm -->
+    <div class="card-product" style="width: 18rem">
+      <img src="./assets/image/Card caja.png"
+       class="card-img-top" 
+       alt="Frasco de vidrio con 8 galletas" />
+      <div class="card-body">
+        <h5 class="card-title">Frasco 8 Unidades</h5>
+        <p class="card-text">
+          Frasco con 8 unidades de galletas de 6 cm c/u..
+        </p>
+        <p class="fs-3 fw-semibold"> $3.500</p>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<div>
+  <div class=" card text-center">
+    <div class="card-body">
+      <h5 class="card-title fs-1 fw-bold">Catalogo de Productos</h5>
+      <p class="card-text">Revisa nuestro catalogo de galletas y arma como quieras el formato que prefieras.</p>
+      <a href="#" class="btn btn-outline-secondary">Ver Catalogo</a>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+    <!--CONTACTO-->
+    <h2 id="Seccion3" class="fs-1 text-center">Contacto</h2>
     <div class="container">
+      <hr />
       <div class="row">
-        <!--  Card bolsa de galleta 3 unidades 6cm -->
-        <div class="card" style="width: 18rem">
-          <img src="..." 
-          class="card-img-top"
-           alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Bolsa 3 Unidades</h5>
-            <p class="card-text">
-              Bolsa con 3 unidades de galletas de 6 cm c/u.
-            </p>
-            <p class="fs-3 fw-semibold"> $1.000</p>
-          </div>
-        </div>
-        <!-- Card caja 4 galletas 6 cm -->
-        <div class="card" style="width: 18rem">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Caja 4 Unidades</h5>
-            <p class="card-text">
-              Caja con 4 unidades de galletas de 6 cm c/u..
-            </p>
-            <p class="fs-3 fw-semibold"> $2.000</p>
-          </div>
-        </div>
-        <!-- Card frasco de galletas 8 unidades 6cm -->
-        <div class="card" style="width: 18rem">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Frasco 8 Unidades</h5>
-            <p class="card-text">
-              Frasco con 8 unidades de galletas de 6 cm c/u..
-            </p>
-            <p class="fs-3 fw-semibold"> $3.500</p>
-          </div>
+        <div class="col-12">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Nombre</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Asunto</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >Mensaje</label
+              >
+              <input
+                id="mensaje"
+                type="email"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
+            </div>
+            <button
+              id="enviar"
+              type="submit"
+              class="btn btn-outline-secondary"
+              data-bs-toggle="tooltip"
+              data-bs-title="Presiona para enviar"
+            >
+              Enviar
+            </button>
+          </form>
         </div>
       </div>
     </div>
-
-    <!--CONTACTO-->
+    <br />
     <!-- FOOTER -->
   </body>
 </html>
