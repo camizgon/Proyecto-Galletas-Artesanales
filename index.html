@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arte en Galletas</title>
+     <!-- FAVICON -->
+     <link rel="icon" type="image/png" href="./assets/image/Logo Arte en Galletas.png">
     <!-- JQuery -->
     <script
       src="https://code.jquery.com/jquery-3.7.1.js"
@@ -36,7 +39,7 @@
     <!-- MIS ESTILOS PROPIOS -->
     <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <title>Arte en Galletas</title>
+  
   </head>
   <body>
     <!-- NAVBAR -->
@@ -221,9 +224,9 @@
 <hr class="w-75 mx-auto" />
 <br />  
 <div class="container">
-  <div class="row d-flex justify-content-evenly gap-4"> <!-- Añadido gap-4 -->
+  <div class="row d-flex justify-content-evenly gap-4 "> <!-- Añadido gap-4 -->
     <!-- Card bolsa de galleta 3 unidades 6cm -->
-    <div class="card-product" style="width: 18rem">
+    <div class="card-product bg-white" style="width: 18rem">
       <img src="./assets/image/Card caja.png" 
       class="card-img-top"
        alt="Bolsa con 3 galletas" />
@@ -236,7 +239,7 @@
       </div>
     </div>
     <!-- Card caja 4 galletas 6 cm -->
-    <div class="card-product" style="width: 18rem">
+    <div class="card-product bg-white" style="width: 18rem">
       <img src="./assets/image/Card caja.png" 
       class="card-img-top" 
       alt="Caja con 4 galletas" />
@@ -249,7 +252,7 @@
       </div>
     </div>
     <!-- Card frasco de galletas 8 unidades 6cm -->
-    <div class="card-product" style="width: 18rem">
+    <div class="card-product bg-white" style="width: 18rem">
       <img src="./assets/image/Card caja.png"
        class="card-img-top" 
        alt="Frasco de vidrio con 8 galletas" />
@@ -276,56 +279,56 @@
 </div>
 <br>
 <br>
-    <!--CONTACTO-->
-    <h2 id="Seccion3" class="fs-1 text-center">Contacto</h2>
-    <div class="container">
-      <hr />
-      <div class="row">
-        <div class="col-12">
-          <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Nombre</label>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-              />
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Asunto</label>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-              />
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label"
-                >Mensaje</label
-              >
-              <input
-                id="mensaje"
-                type="email"
-                class="form-control"
-                id="exampleInputPassword1"
-              />
-            </div>
-            <button
-              id="enviar"
-              type="submit"
-              class="btn btn-outline-secondary"
-              data-bs-toggle="tooltip"
-              data-bs-title="Presiona para enviar"
-            >
-              Enviar
-            </button>
-          </form>
+  <!-- CONTACTO -->
+<h2 id="Seccion3" class="fs-1 text-center">Contacto</h2>
+<div class="container">
+  <hr />
+  <div class="row">
+    <div class="col-12">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Nombre</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
         </div>
-      </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Asunto</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="mensaje" class="form-label">Mensaje</label>
+          <!-- Usar un textarea para el mensaje con mayor altura -->
+          <textarea
+            id="mensaje"
+            class="form-control"
+            rows="5" 
+            placeholder="Escribe tu mensaje aquí..."
+          ></textarea>
+        </div>
+        <button
+          id="enviar"
+          type="submit"
+          class="btn btn-outline-secondary"
+          data-bs-toggle="tooltip"
+          data-bs-title="Presiona para enviar"
+        >
+          Enviar
+        </button>
+      </form>
     </div>
+  </div>
+</div>
     <br />
     <!-- FOOTER -->
+
   </body>
 </html>
