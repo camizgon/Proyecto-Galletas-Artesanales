@@ -102,3 +102,17 @@ body {
   
 }
 
+/*CSS FOOTER*/
+nav, footer{
+  background-color: #e2dcd0;
+}
+
+#link{
+  color:  #004d40;
+}
+ #img-footer{
+  margin-top: 28px;
+ }
+ 
+
+  
