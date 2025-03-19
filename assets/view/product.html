@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arte en Galletas</title>
+    <!-- FAVICON -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="../image/Logo Arte en Galletas.png"
+    />
+    <!-- JQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--CSS BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- JS BOOTSTRAP -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- FONT AWESONE -->
+    <script
+      defer
+      src="https://kit.fontawesome.com/d5b48fda4e.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- MI SCRIPT -->
+    <script defer src="../js/index.js"></script>
+    <!-- MIS ESTILOS PROPIOS -->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav id="navbar" class="navbar navbar-expand-lg">
+      <div
+        class="container w-75 d-flex justify-content-between align-items-center"
+      >
+        <!-- Botón toggle de navbar para vista móvil -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Imagen visible solo en dispositivos móviles -->
+        <img
+          src="../image/Logo_Arte_en_Galletas-removebg-preview.png"
+          width="100"
+          alt="Logo Arte en Galletas"
+          class="d-block mx-auto d-md-none"
+        />
+
+        <!-- Menú colapsable en vista móvil y visible en escritorio -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul
+            class="navbar-nav w-100 d-flex flex-lg-row flex-column align-items-center justify-content-lg-between"
+          >
+            <!-- Menú a la izquierda de la imagen en escritorio, centrado en vista móvil -->
+            <div class="d-flex flex-lg-row flex-column align-items-center">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-info-emphasis fs-5 fw-medium mx-lg-4 my-2 text-center"
+                  aria-current="page"
+                  href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-info-emphasis fs-5 fw-medium mx-lg-5 my-2 text-center"
+                  href="#Seccion1"
+                  >Quienes Somos</a
+                >
+              </li>
+            </div>
+
+            <!-- Imagen centrada en el medio (solo en escritorio) -->
+            <img
+              src="../image/Logo_Arte_en_Galletas-removebg-preview.png"
+              width="100"
+              alt="Logo arte en galletas"
+              class="d-none d-lg-block mx-auto"
+            />
+
+            <!-- Menú a la derecha de la imagen en escritorio, centrado en vista móvil -->
+            <div class="d-flex flex-lg-row flex-column align-items-center">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-info-emphasis fs-5 fw-medium me-lg-5 my-2 text-center"
+                  href="#Seccion2"
+                  >Nuestros Productos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-info-emphasis fs-5 fw-medium me-lg-5 my-2 text-center"
+                  href="#Seccion3"
+                  >Contacto</a
+                >
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- CATÁLOGO DE GALLETAS -->
+    <h1 id="" class="d-md-block fs-1 text-center mt-5">Catálogo de Galletas</h1>
+    <hr class="w-75 mx-auto" />
+    <br />
+    <div class="box-catalog">
+      <div class="container">
+        <div class="row d-flex justify-content-evenly gap-4">
+          <!-- Card Novedades -->
+          <div class="card-product bg-white" style="width: 18rem">
+            <img
+              src="../image/Novedades1.jpeg"
+              class="card-img-top"
+              alt="Galleta Artesanal Glaseada Casa Navidena Roja 6cm"
+            />
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Galleta Casa Navideña</h5>
+              <p class="card-text">
+                Galleta Artesanal Glaseada Casa Navideña Roja 6 cm
+              </p>
+            </div>
+          </div>
+          <!-- Card 2 Novedades  -->
+          <div class="card-product bg-white" style="width: 18rem">
+            <img
+              src="../image/Novedades2.jpeg"
+              class="card-img-top"
+              alt="Galleta Artesanal Glaseada Elfo Navideño 6cm"
+            />
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Galleta Elfo Navideño</h5>
+              <p class="card-text">
+                Galleta Artesanal Glaseada Elfo Navideño 6 cm
+              </p>
+            </div>
+          </div>
+          <!-- Card Nocedades 3 -->
+          <div class="card-product bg-white" style="width: 18rem">
+            <img
+              src="../image/Novedades3.jpeg"
+              class="card-img-top"
+              alt="Galleta Artesanal Glaseada Estrella Navideña 6cm"
+            />
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Galleta Estrella Navideña</h5>
+              <p class="card-text">
+                Galleta Artesanal Glaseada Estrella Navideña 6 cm
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <!-- Imagen -->
+          <div class="col-12 col-md-4 text-center mb-3 mb-md-0">
+            <img
+              id="img-footer"
+              src="../image/Logo_Arte_en_Galletas-removebg-preview.png"
+              width="220"
+              alt="Logo Arte en Galletas"
+            />
+          </div>
+
+          <!-- Redes Sociales y Datos de contacto -->
+          <div
+            class="col-12 col-md-8 d-flex text-center text-md-start flex-column flex-md-row"
+          >
+            <!-- Redes Sociales -->
+            <div class="mx-3 mb-3 mb-md-0">
+              <p class="fw-bold">Redes Sociales</p>
+              <ul
+                class="list-unstyled d-flex flex-column align-items-center align-items-md-start"
+              >
+                <li class="d-flex align-items-center mb-2">
+                  <a
+                    id="link"
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    class="mx-2"
+                  >
+                    <i class="fa-brands fa-square-facebook"></i>
+                  </a>
+                  <span>arten_galletas</span>
+                </li>
+                <li class="d-flex align-items-center mb-2">
+                  <a
+                    id="link"
+                    href="https://www.instagram.com/arten_galletas/"
+                    target="_blank"
+                    class="mx-2"
+                  >
+                    <i class="fa-brands fa-square-instagram"></i>
+                  </a>
+                  <span>@arten_galletas</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Datos de contacto -->
+            <div class="mx-3 mb-3 mb-md-0">
+              <p class="fw-bold">Contacto</p>
+              <ul
+                class="list-unstyled d-flex flex-column align-items-center align-items-md-start"
+              >
+                <li class="d-flex align-items-center mb-2">
+                  <a id="link" href="tel:+56944306166" class="mx-2">
+                    <i class="fa fa-phone"></i>
+                  </a>
+                  <span>+56 9 44306166</span>
+                </li>
+                <li class="d-flex align-items-center mb-2">
+                  <a
+                    id="link"
+                    href="mailto:artengalletas@gmail.com"
+                    class="mx-2"
+                  >
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                  <span>artengalletas@gmail.com</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Horario de Atención -->
+            <div class="mx-3 mb-3 mb-md-0">
+              <p class="fw-bold">Horario de Atención</p>
+              <ul
+                class="list-unstyled d-flex flex-column align-items-center align-items-md-start"
+              >
+                <li class="d-flex align-items-center mb-2">
+                  <a id="link" href="#" class="mx-2">
+                    <i class="fa-solid fa-clock"></i>
+                  </a>
+                  <span>Lunes a Jueves 9:00 a 18:00 hrs</span>
+                </li>
+                <li class="d-flex align-items-center mb-2">
+                  <span class="mx-4">Viernes y Sábados 9:00 a 16:00 hrs</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="Copyright text-center mt-4">
+        &copy; Copyright Arte en Galletas - 2024
+      </p>
+    </footer>
+    <!-- Ícono de WhatsApp flotante -->
+    <a
+      href="https://web.whatsapp.com/send?phone=56944306166"
+      target="_blank"
+      id="whatsapp-icon"
+    >
+      <i class="fa-brands fa-whatsapp fs-1"></i>
+    </a>
+  </body>
+</html>
